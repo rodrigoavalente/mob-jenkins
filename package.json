@@ -14,6 +14,7 @@
     "semantic-ui-react": "^0.78.3"
   },
   "devDependencies": {
+    "eslint-plugin-flowtype-errors": "^3.5.1",
     "meteor-desktop": "^0.14.1"
   }
 }

@@ -27,6 +27,8 @@ import { render } from 'react-dom';
 
 import { Meteor } from 'meteor/meteor';
 
+import 'semantic-ui-css/semantic.min.css';
+
 
 import Application from '../imports/ui/App';
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Button, Container, Header, List } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
+import TopMenu from './menu/Menu';
+
 export default class Application extends Component {
     constructor(props) {
         super(props);
@@ -17,6 +19,7 @@ export default class Application extends Component {
     render() {
         return (
             <div className='ui one column centered grid'>
+                <TopMenu />
                 <div className='column'>
                     <div className='row'>
                         <Header as='h1'>Welcome to Meteor!</Header>

@@ -2,3 +2,5 @@ node_modules/
 version.desktop
 local
 desktop-build
+.desktop
+.meteor
